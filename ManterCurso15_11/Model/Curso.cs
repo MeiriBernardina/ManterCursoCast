@@ -17,8 +17,10 @@ namespace ManterCurso15_11.Model
         public DateTime DataTermino { get; set; }
 
         public int QtdAlunosTurma { get; set; }
-        [Required]
+    
         public string NomeCategoria { get; set; }
+
+        public Categoria Categoria { get; set; }
 
     }
 }

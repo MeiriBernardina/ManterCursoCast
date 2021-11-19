@@ -3,14 +3,16 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ManterCurso15_11.Migrations
 {
     [DbContext(typeof(ManterCurso15_11Context))]
-    partial class ManterCurso15_11ContextModelSnapshot : ModelSnapshot
+    [Migration("20211117002750_final2")]
+    partial class final2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,7 +42,10 @@ namespace ManterCurso15_11.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CategoriaId")
+                    b.Property<string>("CategoriaId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CategoriaId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DataInicio")
@@ -52,15 +57,12 @@ namespace ManterCurso15_11.Migrations
                     b.Property<string>("Descricao")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("NomeCategoria")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("QtdAlunosTurma")
                         .HasColumnType("int");
 
                     b.HasKey("CursoId");
 
-                    b.HasIndex("CategoriaId");
+                    b.HasIndex("CategoriaId1");
 
                     b.ToTable("Curso");
                 });
@@ -92,7 +94,7 @@ namespace ManterCurso15_11.Migrations
                 {
                     b.HasOne("ManterCurso15_11.Model.Categoria", "Categoria")
                         .WithMany()
-                        .HasForeignKey("CategoriaId");
+                        .HasForeignKey("CategoriaId1");
 
                     b.Navigation("Categoria");
                 });

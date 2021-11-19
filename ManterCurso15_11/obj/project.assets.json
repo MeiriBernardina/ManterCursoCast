@@ -7336,11 +7336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\pf\\15_11_21\\ManterCurso15_11\\ManterCurso15_11\\ManterCurso15_11.csproj",
+      "projectUniqueName": "C:\\pf\\17_11_21\\ProjetoFinalManterCursos\\ManterCursoApi17\\ManterCurso15_11\\ManterCurso15_11.csproj",
       "projectName": "ManterCurso15_11",
-      "projectPath": "C:\\pf\\15_11_21\\ManterCurso15_11\\ManterCurso15_11\\ManterCurso15_11.csproj",
+      "projectPath": "C:\\pf\\17_11_21\\ProjetoFinalManterCursos\\ManterCursoApi17\\ManterCurso15_11\\ManterCurso15_11.csproj",
       "packagesPath": "C:\\Users\\meiri\\.nuget\\packages\\",
-      "outputPath": "C:\\pf\\15_11_21\\ManterCurso15_11\\ManterCurso15_11\\obj\\",
+      "outputPath": "C:\\pf\\17_11_21\\ProjetoFinalManterCursos\\ManterCursoApi17\\ManterCurso15_11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\meiri\\AppData\\Roaming\\NuGet\\NuGet.Config",

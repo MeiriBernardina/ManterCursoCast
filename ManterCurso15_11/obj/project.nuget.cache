@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vCokBpskNEHSfXa7yhaYyCZ9dmZ7vf/Mu1A0fS1fgQ3h5qdZOIn+b7+IRefEdFRP/+xzMQHpAszooV7t39Vl7A==",
+  "dgSpecHash": "B6hgZLuJZyuhWUsJIfPMhk4wJx3Ui/ZZ55i7KP0M5qw9afnb0Eaj+wLFJWNAe4atAAnx16WwIgP1pzE/yGLtmA==",
   "success": true,
-  "projectFilePath": "C:\\pf\\15_11_21\\ManterCurso15_11\\ManterCurso15_11\\ManterCurso15_11.csproj",
+  "projectFilePath": "C:\\pf\\17_11_21\\ProjetoFinalManterCursos\\ManterCursoApi17\\ManterCurso15_11\\ManterCurso15_11.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meiri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\meiri\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
