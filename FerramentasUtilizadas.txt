@@ -1,0 +1,5 @@
+As ferramentas utilizadas foram:
+ASP.NET Core Web API versão .NET 5.0(Microsoft Visual studio Communit)
+Entity frameworkcore, entity frameworkcore SQL Server entity frameworkcore.tools (Versão 5.0.12)
+Angular 12, Bootstrap 4.5.3 (Visual studio Code)
+
